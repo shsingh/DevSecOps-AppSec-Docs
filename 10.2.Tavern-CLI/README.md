@@ -9,21 +9,23 @@
 	
 * Step 4:	Start the application and wait for few minutes
 
-	` docker-compose up -d && sleep 10`
+	` docker-compose up -d`
+
+* Step 5: Wait for few seconds (approx 40 sec) for the application to boot up	
 	
-* Step 5: Run Tavern shell script 
+* Step 6: Run Tavern shell script 
 	
 	`sh run.sh`
     
-* Step 6: View test results log
+* Step 7: View test results log
 	
 	`cat result.log`
 	
-* Step 7: Stop application
+* Step 8: Stop application
 
 	`docker-compose down`
 	
-* Step 8: Deactivate virtualenv
+* Step 9: Deactivate virtualenv
 
 	`deactivate`
 	

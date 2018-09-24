@@ -8,10 +8,10 @@
 	`source venv/bin/activate`
 * Step 4: Run bandit 
 	
-	`bandit -r -f json -o bandit-result.json /home/vagrant/sources/CTF2`
+	`bandit -r -f html -o bandit-result.html /home/vagrant/sources/CTF2`
 * Step 5: View report
 	
-	`firefox file://$PWD/bandit-result.json`
+	`firefox file://$PWD/bandit-result.html`
 * Step 6: Deactivate virtualenv
 	
 	`deactivate`

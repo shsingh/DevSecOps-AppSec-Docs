@@ -14,7 +14,7 @@
 	
 * Step 5:	Run robot scan
 
-	`robot zap_test.robot`
+	`robot pipeline.robot`
 	
 * Step 6: ZAP opens on a new window
 	

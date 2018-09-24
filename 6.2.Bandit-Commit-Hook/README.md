@@ -13,7 +13,7 @@
 	
 * Step 5: Create a python file with the following content and save it 
 	
-	```
+	```python
 	import yaml
 	with open("example.yaml", 'r') as stream:
     	try:

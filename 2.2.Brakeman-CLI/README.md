@@ -6,7 +6,7 @@
 	 
 * Step 3: Run brakeman 
 	
-	`brakeman -p /home/vagrant/sources/railsgoat -o brakeman-result.json`
+	`brakeman -p /home/vagrant/sources/railsgoat -o brakeman-result.html`
 * Step 4: View report
 	
-	`firefox file://$PWD/brakeman-result.json`
+	`firefox file://$PWD/brakeman-result.html`

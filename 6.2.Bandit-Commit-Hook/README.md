@@ -16,10 +16,10 @@
 	```python
 	import yaml
 	with open("example.yaml", 'r') as stream:
-    	try:
-        	print(yaml.load(stream))
-    	except yaml.YAMLError as exc:
-        	print(exc)
+		try:
+			print(yaml.load(stream))
+		except yaml.YAMLError as exc:
+			print(exc)
     ```
     
 * Step 6: Add the file to git repo

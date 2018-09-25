@@ -64,6 +64,12 @@
 
 	* [18.2.Clair-CLI](Clair-CLI/README.md)   
 	         
-	* [18.3.AppArmor](AppArmor/README.md)            
+	* [18.3.AppArmor](AppArmor/README.md) 
+
+* [19. Python Robot Pipeline](PyPipeline/README.md) 
+
+* [20. Struct Vulnerability](Struct-Vul/README.md)   
+
+* [21. NodeJSScan Docker](NodeJsScan-Docker/README.md)               
     
 

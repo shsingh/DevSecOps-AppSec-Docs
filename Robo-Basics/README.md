@@ -1,5 +1,6 @@
 ## Robot Basics
 * Step 1: Open terminal
+
 * Step 2: Change directory
 
 	`cd /home/vagrant/Labs/Robo-Security/robo-sec/`

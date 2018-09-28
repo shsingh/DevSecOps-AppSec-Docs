@@ -1,9 +1,9 @@
-## Struct Vulnerability
+## Struts Vulnerability
 * Step 1: Open terminal
 
 * Step 2: Change directory
 
-	 `cd /home/vagrant/Labs/Struct-Vul`
+	 `cd /home/vagrant/Labs/Struts-Vul`
 	 
 * Step 3: Run the vulnerable docker
 	

@@ -18,10 +18,18 @@
 	`docker run --security-opt apparmor:docker-deny-passwd -d -p 5050:5050 abhaybhargav/vul_flask`	
 	
 * Step 6: List docker images
+	
+	`docker ps`
 
 	![Image](./img/docker-ls.png)
 	
 * Step 7: Exec into the docker and try to access `/etc/passwd`
+
+	`docker exec -it <container_id> bash`
+
+	Replace the `container_id` with the one listed by `docker ps` commands
+
+	`cat /etc/passwd`
 	
 	![Image](./img/docker-exec.png)
 	

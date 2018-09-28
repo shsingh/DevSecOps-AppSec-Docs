@@ -8,10 +8,10 @@
 	`source venv/bin/activate`
 * Step 4: Run bandit 
 	
-	`bandit -f json -o bandit-result.json -x /home/vagrant/sources/Vulnerable-Flask-App/app/venv -r /home/vagrant/sources/Vulnerable-Flask-App/`
+	`bandit -f html -o bandit-result.html -x /home/vagrant/sources/Vulnerable-Flask-App/app/venv -r /home/vagrant/sources/Vulnerable-Flask-App/`
 * Step 5: View report
 	
-	`firefox file://$PWD/bandit-result.json`
+	`firefox file://$PWD/bandit-result.html`
 * Step 6: Deactivate virtualenv
 	
 	`deactivate`

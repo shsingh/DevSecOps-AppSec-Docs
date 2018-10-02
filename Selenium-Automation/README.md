@@ -18,6 +18,7 @@
 	`start-zap`
 	
 * Step 6: Run selenium script
+	`export PATH=$PATH:$(pwd)`
 
 	`python Walkthrough.py`
 	
@@ -32,7 +33,5 @@
 * Step 9: Deactivate virtualenv
 	
 	`deactivate`
-
-
 	
 

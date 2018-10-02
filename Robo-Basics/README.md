@@ -40,42 +40,7 @@
 * Step 11: Stop wecare app
 
 	`clean-doc`
-	
-* Step 12: Change directory
 
-	 `cd /home/vagrant/Labs/Robo-Security/robo-sec/ci_cd`
-	 
-* Step 13: Start Node app
-
-	`docker-compose up -d`
-	
-* Step 14: Run robot scripts as a pipeline
-
-	`robot NodeAppPipeline.robot`	
-	
-* Step 15: Stop Node app
-
-	`docker-compose down`
-	
-* Step 16: Change directory
-
-	 `cd /home/vagrant/Labs/Robo-Security/robo-sec/pentest_pipeline`
-	 
-* Step 17: Start Node app
-
-	`docker-compose up -d`
-	
-* Step 18: Run robot scripts as a pipeline
-
-	`robot PentestPipeline.robot`	
-	
-* Step 19: Stop Node app
-
-	`docker-compose down`
-	
-* Step 20: Deactivate virtualenv
-
-	`deactivate`
 	
 	
 	

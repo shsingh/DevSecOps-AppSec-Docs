@@ -20,9 +20,16 @@
 	
 	`robot SecurityTest.robot`
 	
-* Step 7: Once the scan is done your folder structre will look like this
+* Step 7: Once the scan is done your folder structure will look like this
 	
 	![Image](./img/dir2.png)
+
+* Step 7a: Open the report with the following command: 
+	
+	`cd results/`
+	`grip Report.md`
+
+	Open another Terminal and type: `firefox http://localhost:6419`
 	
 * Step 8: Open the report using firefox
 
@@ -32,7 +39,7 @@
 
 	![Image](./img/svg.png)
 	
-* Step 10: The threat model diagrams will be in the `results/threatmaps` folder
+* Step 10: The threat model diagrams will be in the `results/threat_maps` folder
 	
 	![Image](./img/dir3.png)
 	

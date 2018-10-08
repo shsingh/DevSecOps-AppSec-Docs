@@ -2,76 +2,98 @@
 
 ---
 
-* [1. Understanding Lab Environment](summary.md)
+* [Understanding Lab Environment](summary.md)
 
-* [2. SAST Tools](summary.md)
-    * [2.1.Bandit-CLI](Bandit-CLI/README.md)
-    * [2.2.Brakeman-CLI](Brakeman-CLI/README.md)
-    * [2.3.NodeJsScan-CLI](NodeJsScan-CLI/README.md)
+* [SAST Tools](summary.md)
 
-* [3. Custom Profiling](summary.md)
-    * [3.1.Bandit-Custom-CLI](Bandit-Custom-CLI/README.md)
+    * [Bandit-CLI](Bandit-CLI/README.md)
+
+    * [Brakeman-CLI](Brakeman-CLI/README.md)
+
+    * [NodeJsScan-CLI](NodeJsScan-CLI/README.md)
+
+* [Custom Profiling](summary.md)
+
+    * [Bandit-Custom-CLI](Bandit-Custom-CLI/README.md)
     
-* [4. Source Composition Analysis](summary.md)
-    * [4.1.DependencyCheck-CLI](DependencyCheck-CLI/README.md)
-    * [4.2.NPM-Audit-CLI](NPM-Audit-CLI/README.md)
-    * [4.3.RetireJS-CLI](RetireJS-CLI/README.md)
-    * [4.4.Safety-CLI](Safety-CLI/README.md)
+* [Source Composition Analysis](summary.md)
+
+    * [DependencyCheck-CLI](DependencyCheck-CLI/README.md)
+
+    * [NPM-Audit-CLI](NPM-Audit-CLI/README.md)
+
+    * [RetireJS-CLI](RetireJS-CLI/README.md)
+
+    * [Safety-CLI](Safety-CLI/README.md)
     
-* [5. GIT Commit Files Check](summary.md)
-    * [5.1.TruffleHog-CLI](TruffleHog-CLI/README.md)
+* [GIT Commit Files Check](summary.md)
+
+    * [TruffleHog-CLI](TruffleHog-CLI/README.md)
     
-* [6. GIT Commit Hooks](summary.md)
-    * [6.1.ESLint-Commit-Hook](ESLint-Commit-Hook/README.md)
-    * [6.2.Bandit-Commit-Hook](Bandit-Commit-Hook/README.md)
+* [GIT Commit Hooks](summary.md)
+
+    * [ESLint-Commit-Hook](ESLint-Commit-Hook/README.md)
+
+    * [Bandit-Commit-Hook](Bandit-Commit-Hook/README.md)
     
-* [7. Continuous Integration](summary.md)
-    * [7.1.JenkinsPipeline](JenkinsPipeline/README.md)
+* [Continuous Integration](summary.md)
+
+    * [JenkinsPipeline](JenkinsPipeline/README.md)
     
-* [8. Burp Suite Demo](summary.md)
+* [Burp Suite Demo](summary.md)
 
-* [9. OWASP ZAP Basics](summary.md)
-    * [9.1.ZAP-Basics](ZAP-Basics/README.md)
+* [OWASP ZAP Basics](summary.md)
 
-* [10. Testing Frameworks](summary.md)
-    * [10.1.NightWatch](NightWatch/README.md)    
-    * [10.2.Tavern-CLI](Tavern-CLI/README.md)    
-    * [10.3.Robot-Framework-Wecare](Robot-Framework-Wecare/README.md)
+    * [ZAP-Basics](ZAP-Basics/README.md)
 
-* [11. Selenium Automation](summary.md)
-    * [11.1.Selenium-Automation](Selenium-Automation/README.md)
+* [Testing Frameworks](summary.md)
 
-* [12. RoboZAP](summary.md)
-    * [12.1.RoboZAP](RoboZAP/README.md)
+    * [NightWatch](NightWatch/README.md)  
 
-* [13. Pipeline](summary.md)
-    * [13.1.NodeRoboPipeline](NodeRoboPipeline/README.md) 
+    * [Tavern-CLI](Tavern-CLI/README.md)    
 
-* [14. Security Regression Scripts](summary.md)
-    * [14.1.ZAP-Python-Scripts](ZAP-Python-Scripts/README.md)
+    * [Robot-Framework-Wecare](Robot-Framework-Wecare/README.md)
 
-* [15. Robot Framework Basics](Robo-Basics/README.md)
+* [Selenium Automation](summary.md)
 
-* [16. Application Vulnerability Correlation](summary.md)
+    * [Selenium-Automation](Selenium-Automation/README.md)
 
-* [17. Container Security ](summary.md)  
+* [RoboZAP](summary.md)
 
-	* [17.1.ContainerBreakout](ContainerBreakout/README.md)
+    * [RoboZAP](RoboZAP/README.md)
 
-* [18. Container Security Scanning ](summary.md)  
+* [Pipeline](summary.md)
+
+    * [NodeRoboPipeline](NodeRoboPipeline/README.md) 
+
+* [Security Regression Scripts](summary.md)
+
+    * [ZAP-Python-Scripts](ZAP-Python-Scripts/README.md)
+
+* [Robot Framework Basics](Robo-Basics/README.md)
+
+* [Application Vulnerability Correlation](summary.md)
+
+* [Container Security ](summary.md)  
+
+	* [ContainerBreakout](ContainerBreakout/README.md)
+
+* [Container Security Scanning ](summary.md)  
 	    
-	* [18.1.Docker-Bench-CLI](Docker-Bench-CLI/README.md)
+	* [Docker-Bench-CLI](Docker-Bench-CLI/README.md)
 
-	* [18.2.Clair-CLI](Clair-CLI/README.md)   
+	* [Clair-CLI](Clair-CLI/README.md)   
 	         
-	* [18.3.AppArmor](AppArmor/README.md) 
+	* [AppArmor](AppArmor/README.md)
 
-* [19. Python Robot Pipeline](PyPipeline/README.md) 
+    * [SysDig-Falco](SysDig-Falco/README.md) 
 
-* [20. Struct Vulnerability](Struct-Vul/README.md)   
+* [Python Robot Pipeline](PyPipeline/README.md) 
 
-* [21. NodeJSScan Docker](NodeJsScan-Docker/README.md)  
+* [Struct Vulnerability](Struct-Vul/README.md)   
 
-* [22. ThreatPlayBook Demo](ThreatPlaybook-Demo/README.md)               
+* [NodeJSScan Docker](NodeJsScan-Docker/README.md)  
+
+* [ThreatPlayBook Demo](ThreatPlaybook-Demo/README.md)               
     
 

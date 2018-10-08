@@ -4,18 +4,14 @@
 * Step 2: Change directory
 
 	 `cd /home/vagrant/Labs/AppArmor`
-	 
-* Step 3: The apparmor profiles
-
-	![Image](./img/profile.png)
 	
 * Step 4: Load profile to apparmor
 
-	`apparmor_parser -r -W /etc/apparmor/containers/docker-deny-passwd`	  
+	`apparmor_parser -r -W docker-deny-password`
 
 * Step 5: Run docker container with apparmor profile loaded
 	
-	`docker run --security-opt apparmor:docker-deny-passwd -d -p 5050:5050 abhaybhargav/vul_flask`	
+	`docker run --security-opt apparmor:docker-deny-password -d -p 5050:5050 abhaybhargav/vul_flask`
 	
 * Step 6: List docker images
 	
@@ -34,6 +30,14 @@
 	![Image](./img/docker-exec.png)
 	
 	Now you will see a permission denied warning
+
+	Let's try and create a shell.py on the `/apps/` directory
+
+	Try: `touch shell.py`
+
+	You should see a "Permission Denied" error
+
+	Now run `exit`
 	
 * Step 8: Stop container
 	

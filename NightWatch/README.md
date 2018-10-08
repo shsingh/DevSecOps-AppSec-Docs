@@ -13,7 +13,7 @@
 	
 	`python ZAPJSONRpc.py`
 
-* Step 5: Open an other terminal
+* Step 5: Open another terminal `(Ctrl + Shift + N)`
 
 * Step 6: Change directory
 	

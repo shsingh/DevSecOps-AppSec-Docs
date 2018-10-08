@@ -10,7 +10,9 @@
 	
 * Step 4: Initiate clair scan on one of the docker image
 
-	./clair_scanner -l clair_report.json --ip $IP abhaybhargav/vul_flask
+    Ensure that the `$IP` value is set with `echo $IP`
+
+	`./clair_scanner -l clair_report.json --ip $IP abhaybhargav/vul_flask`
 	
 * Step 5: It will result in a bunch of CVE's
 	

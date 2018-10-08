@@ -41,6 +41,8 @@
 
 	`clean-doc`
 
+	`deactivate`
+
 	
 	
 	

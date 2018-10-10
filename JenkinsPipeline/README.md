@@ -9,7 +9,7 @@
 
 * Step 4:	Access Jenkins Url
 
-	` http://localhost:8080`
+	`http://localhost:8080`
 	
 * Step 5: Login to Jenkins portal with username `admin` and password `admin` 
 

@@ -13,6 +13,8 @@
 
 	`start-wecare`
 
+	`export PATH=$PATH:$(pwd)`
+
 * Step 5:	Start robot scan
 
 	`robot Walkthrough.robot`

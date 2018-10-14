@@ -13,7 +13,7 @@
 	
 	`docker run --security-opt apparmor:docker-deny-password -d -p 5050:5050 abhaybhargav/vul_flask`
 	
-* Step 6: List docker images
+* Step 6: List running containers
 	
 	`docker ps`
 
